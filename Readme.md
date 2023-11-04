@@ -30,7 +30,9 @@ pip install -r requirements.txt
 
 To launch the app, execute:
 
+```bash
 streamlit run main.py
+```
 
 ## Contributing 🤝
 
