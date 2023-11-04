@@ -112,9 +112,30 @@ def generate_deck(language: str) -> str:
     return package_name
 
 def main():
-    st.title("Emoji language learning")
+    
+    st.set_page_config(
+        page_title="Emoji language learning",
+        page_icon=":books:",
+        layout="wide"
+    )
 
-    st.markdown("Learn languages with emojis!")
+    st.title("📚 Emoji language learning")
+    
+    st.markdown(
+        """
+        Learning a new language can be quite challenging, as it often requires leveraging 
+        the foundations of languages you already know. To address this challenge and capitalize 
+        on a universally understood form of communication, this project harnesses the power of 
+        emojis to facilitate language learning for individuals from any cultural background. 
+        By integrating the universal appeal of emojis with the proven method of spaced repetition 
+        learning, this project creates a dynamic deck of cards featuring emojis alongside their 
+        descriptions in the language you aspire to learn. These decks are compatible with Anki, 
+        the leading spaced-repetition application and also open source, allowing for a seamless 
+        import into your Anki app to kickstart your learning journey.
+
+        You can download Anki for free [here](https://apps.ankiweb.net/).
+        """
+    ) 
 
     language = st.selectbox("Select language", list(LANGUAGES.keys()))
 
