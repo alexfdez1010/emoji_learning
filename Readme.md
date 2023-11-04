@@ -8,6 +8,20 @@ Learning a new language can be quite challenging, as it often requires leveragin
 
 You can download Anki for free [here](https://apps.ankiweb.net/).
 
+The languages available for learning are:
+
+- Spanish
+- English
+- French
+- German
+- Italian
+- Portuguese
+- Japanese
+- Korean
+- Chinese
+- Persian
+- Indonesian
+
 ## How to Use 🚀
 
 Follow these simple steps to embark on your language learning adventure:
