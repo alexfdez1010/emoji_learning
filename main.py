@@ -115,8 +115,7 @@ def main():
     
     st.set_page_config(
         page_title="Emoji language learning",
-        page_icon=":books:",
-        layout="wide"
+        page_icon=":books:"
     )
 
     st.title("📚 Emoji language learning")
